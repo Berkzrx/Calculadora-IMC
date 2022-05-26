@@ -21,11 +21,9 @@ function calcular(){
     }else if(calculo > 18.4 && calculo <= 25.0){
         document.getElementById('output').innerHTML = `${calculo} - PESO IDEAL`;
         document.getElementById('output').style.color = '#10d057';
-        document.querySelector('.row4').style.border = '5px white solid';
     }else if(calculo >= 25.1 && calculo < 29.9){
         document.getElementById('output').innerHTML = `${calculo} - PRÉ-OBESIDADE`;
         document.getElementById('output').style.color = '#8fac00';
-        document.querySelector('.row5').style.border = '5px white solid';
     }else if(calculo >= 30.0 && calculo < 34.9){
         document.getElementById('output').innerHTML =  `${calculo} - OBESIDADE GRAU 1`;
         document.getElementById('output').style.color = '#549b0a';
