@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Calculadora IMC</title>
+</head>
+<body >
+    
+    <div class="all-content">
+
+        
+        <div class="calculator-side">
+
+            <div class="title">
+
+                <h1>IMC - Calculadora</h1>
+                <p>O Índice de Massa Corporal (<abbr title="Índice de Massa Corporal" style="text-decoration: none;" >IMC</abbr>), é um cálculo simples que permite medir se você  está ou não com o peso ideal.</p>
+
+            </div>
+
+            <section class="form">
+        
+                <label for="height">Digite sua altura em CM (ex.: 170)</label>
+                <input type="number" name="" id="height" placeholder="Sua altura(cm)" min="0" value="" required> 
+
+                <label for="weight">Digite seu peso KG (ex.: 69,5)</label>
+                <input type="number" name="" id="weight" step=".1" placeholder="Seu peso(kg)" min="0" value="" require d>
+
+                <button type="submit" onclick="calcular()">Calcular IMC</button>
+
+            </section>
+
+            <a href="https://www.linkedin.com/in/patricio-diniz-7a914a162/" target="_blank">Patricio Diniz &copy; 2022</a>
+
+        </div>
+
+
+        <div class="result-side">
+            <div class="result-area">
+                <h2>Sua classificação:</h2>
+
+                <div class="classification" id="classification">
+                    AGUARDANDO...
+                </div>
+                <div id="output" class="peso">
+                    AGUARDANDO...
+                </div>
+
+                <div class="table">
+                    <h3 for="recomends">Confirme na tabela abaixo:</h3>
+                    <figure>
+                        <img class="table__imc" id="table" src="assets/images/IMC tabela.png" alt="tabela de classificação IMC">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/calculoIMC.js"></script>
+
+</body>
+</html>

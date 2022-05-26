@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+:root {
+    --color-1:#2e2e2e;
+    --color-2: #c6c6c6;
+    --color-3: #1e4a5c;
+    --color-4: #ecf3f1;
+    --color-5: #d99d04;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #132c36, #282828);
+    font-size: 1em;
+}
+
+.all-content {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    margin: auto;
+}
+
+.calculator-side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding: 5em;
+    align-items: center;
+    color: var(--color-4);
+    box-shadow: 10px 0 5px -3px rgba(0,0,0, .2);
+    background: url(/assets/images/yellowWave.svg) var(--color-2) no-repeat bottom;
+    background-size: 300%;
+}
+
+
+.title {
+    position: absolute;
+    background-color: var(--color-3);
+    padding: 20px;
+    top: 1em;
+    width: 105%;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0, .2);
+}
+
+
+.form {
+    position: relative;
+    display:flex; 
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5em;
+    padding: 2em;
+    border-radius: 5px;
+    color: var(--color-1);
+    background: url(/assets/images/blueWave.svg) var(--color-4) no-repeat bottom;
+    background-size: 150%;
+    box-shadow: 0 10px 10px -2px rgba(0,0,0, .2);
+    font-weight: 600;
+}
+
+.form::after{
+    content: '';
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    background-image: url(/assets/images/medicos.svg);
+    background-position: bottom left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 1em;
+    right: 1em;
+}
+
+.form input {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 1em;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px var(--color-3) solid;
+    width: 180px;    
+    outline: none;
+    z-index: 10;
+}
+
+.form button {
+    width: 180px;
+    margin: 1em;
+    background-color: var(--color-5);
+    border: 2px var(--color-3) solid;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--color-1);
+    font-weight: 600;
+    z-index: 10;
+}
+
+.form button:hover{
+    background-color:var(--color-3);
+    color: var(--color-4);
+    transition: .2s;
+    cursor: pointer;
+}
+
+a {
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-1);
+}
+
+/* ------------------------------------------------------------ */
+
+
+.result-side{
+    height: 100%;
+    width: 50%;
+    padding: 3em;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.result-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 1em;
+    background-color: var(--color-3);
+    border-radius: 5px;
+    color: var(--color-4);
+    box-shadow: 0 0 10px 5px rgba(0,0,0, .5);
+}
+
+
+.result-area h2{
+    font-size: 2em;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.result-area .classification {
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+
+.result-area .peso{
+    position: relative;
+    background-color: #232323;
+    padding: 5px 10px 5px 10px;
+    color: var(--color-4);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.result-area .peso::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 2.5em;
+    height: 5px;
+    background-color: var(--color-5);
+}
+
+.result-area .table__imc {
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:56.25em) {
+
+
+    .all-content{
+        flex-direction: column;
+    }
+
+    .calculator-side{
+        padding: 2em;
+        width: 100%;
+    }
+
+    .title {
+        position: static;
+        width: 100%;
+    }
+
+    .result-side{
+        margin-top: 2em;
+        padding: 0;
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form input, button{
+        width: 80%;
+    }
+
+    .form::after{
+        display: none;
+    }
+
+}
