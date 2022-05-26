@@ -34,13 +34,13 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50%;
     padding: 5em;
     align-items: center;
     color: var(--color-4);
     box-shadow: 10px 0 5px -3px rgba(0,0,0, .2);
-    background: url(/assets/images/yellowWave.svg) var(--color-2) no-repeat bottom;
+    background: url(../images/yellowWave.svg) var(--color-2) no-repeat bottom;
     background-size: 300%;
 }
 
@@ -60,11 +60,12 @@ body {
     display:flex; 
     flex-direction: column;
     width: 100%;
+    height: auto;
     margin-top: 5em;
     padding: 2em;
     border-radius: 5px;
     color: var(--color-1);
-    background: url(/assets/images/blueWave.svg) var(--color-4) no-repeat bottom;
+    background: url(../images/blueWave.svg) var(--color-4) no-repeat bottom;
     background-size: 150%;
     box-shadow: 0 10px 10px -2px rgba(0,0,0, .2);
     font-weight: 600;
@@ -75,7 +76,7 @@ body {
     position: absolute;
     height: 350px;
     width: 200px;
-    background-image: url(/assets/images/medicos.svg);
+    background-image: url(../images/medicos.svg);
     background-position: bottom left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -122,6 +123,23 @@ a {
     color: var(--color-1);
 }
 
+footer{
+    margin-top: 3em;
+    bottom: 1em;
+    text-align: center;
+    color: var(--color-1);
+    font-weight: bold;
+}
+footer .social-medias, 
+a{
+    margin: .5em;
+    opacity: 85%;
+}
+
+footer span{
+    color: #000;
+}
+
 /* ------------------------------------------------------------ */
 
 
@@ -156,30 +174,14 @@ a {
     border-radius: 5px;
 }
 
-.result-area .classification {
-    font-size: 2em;
-    padding-bottom: 1em;
-    font-weight: 600;
-}
-
-
 .result-area .peso{
     position: relative;
-    background-color: #232323;
-    padding: 5px 10px 5px 10px;
+    background-color: rgb(17, 17, 17);
+    padding: 5px 10px;
     color: var(--color-4);
     font-size: 2em;
     font-weight: bold;
-}
-
-.result-area .peso::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 2.5em;
-    height: 5px;
-    background-color: var(--color-5);
+    border: 2px greenyellow solid;
 }
 
 .result-area .table__imc {

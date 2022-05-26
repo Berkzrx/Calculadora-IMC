@@ -1,0 +1,28 @@
+
+.table__imc{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: separate;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+
+th{color: black;    background-color: var(--color-5);     padding: 10px; }
+
+tbody{border-collapse:separate;}
+
+td{height: 2em;    font-size: .7em;}
+
+
+.row1{background-color: #cd1026;}
+.row2{background-color: #d36403;}
+.row3{background-color: #549b0a;}
+.row4{background-color: #10d057;}
+.row5{background-color: #8fac00;}
+.row6{background-color: #549b0a;}
+.row7{background-color: #d36403;}
+.row8{background-color: #cd1026;}
