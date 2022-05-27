@@ -11,12 +11,13 @@
 }
 
 
-th{color: black;    background-color: var(--color-5);     padding: 10px; }
+th{color: black;    background-color: rgb(143, 196, 249);     padding: 5px; border-radius: 7px 7px 0 0 ;}
 
 tbody{border-collapse:separate;}
 
 td{height: 2em;    font-size: .7em;}
 
+tbody tr td{ border-radius: 7px;}
 
 .row1{background-color: #cd1026;}
 .row2{background-color: #d36403;}
