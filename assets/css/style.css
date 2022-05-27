@@ -98,7 +98,7 @@ body {
     z-index: 10;
 }
 
-.form button {
+.form a {
     width: 180px;
     margin: 1em;
     background-color: var(--color-5);
@@ -106,20 +106,19 @@ body {
     padding: 10px;
     border-radius: 10px;
     z-index: 10;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-1);
 }
 
 
-.form button:hover{
+.form a:hover{
     background-color:var(--color-3);
+    color: var(--color-4);
     transition: .2s;
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--color-4);
-}
 
 
 footer{
@@ -129,14 +128,15 @@ footer{
     color: var(--color-1);
     font-weight: bold;
 }
-footer .social-medias, 
-a{
+
+footer .social-medias > a{
     margin: .5em;
-    opacity: 85%;
+    opacity: 65%;
 }
 
-footer span{
+footer .social-medias span{
     color: #000;
+    margin: 1em;
 }
 
 /* ------------------------------------------------------------ */
