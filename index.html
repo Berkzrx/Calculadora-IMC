@@ -31,12 +31,28 @@
             <article class="form">
         
                 <label for="height">Digite sua altura em CM (ex.: 170)</label>
-                <input type="number" name="" id="height" placeholder="Sua altura(cm)" min="0" value="" required> 
+
+                <input  type="number" 
+                        name="" 
+                        id="height" 
+                        step="1"
+                        placeholder="Sua altura(cm)" 
+                        min="0" 
+                        value="" 
+                        required> 
 
                 <label for="weight">Digite seu peso KG (ex.: 69,5)</label>
-                <input type="number" name="" id="weight" step=".1" placeholder="Seu peso(kg)" min="0" value="" required>
 
-                <button type="submit" onclick="calcular()">Calcular IMC</button>
+                <input  type="number" 
+                        name="" 
+                        id="weight" 
+                        step=".1" 
+                        placeholder="Seu peso(kg)" 
+                        min="0" 
+                        value="" 
+                        required>
+
+                <button type="submit" onclick="calcular()"><a href='#tabela'>Tabela IMC</a></button>
 
             </article>
 
@@ -68,7 +84,7 @@
                 </div>
 
                 <article class="table_section">
-                    <table class="table__imc">
+                    <table class="table__imc" id="tabela">
 
                         <caption>Confirme na tabela abaixo:</caption>
 

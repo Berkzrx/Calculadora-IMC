@@ -5,6 +5,7 @@
     padding: 0%;
     margin:0%;
     font-family: 'Dosis', sans-serif; 
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -104,24 +105,22 @@ body {
     border: 2px var(--color-3) solid;
     padding: 10px;
     border-radius: 10px;
-    color: var(--color-1);
-    font-weight: 600;
     z-index: 10;
 }
 
+
 .form button:hover{
     background-color:var(--color-3);
-    color: var(--color-4);
     transition: .2s;
     cursor: pointer;
 }
 
 a {
-    margin-top: 50px;
     text-decoration: none;
     font-weight: 600;
-    color: var(--color-1);
+    color: var(--color-4);
 }
+
 
 footer{
     margin-top: 3em;
