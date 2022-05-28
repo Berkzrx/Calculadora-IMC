@@ -40,7 +40,7 @@ body {
     padding: 5em;
     align-items: center;
     color: var(--color-4);
-    box-shadow: 10px 0 5px -3px rgba(0,0,0, .2);
+    box-shadow: 10px 0 5px -3px #00000033;
     background: url(../images/yellowWave.svg) var(--color-2) no-repeat bottom;
     background-size: 300%;
 }
@@ -52,7 +52,7 @@ body {
     padding: 20px;
     top: 1em;
     width: 105%;
-    box-shadow: 0 5px 10px 5px rgba(0,0,0, .2);
+    box-shadow: 0 5px 10px 5px #00000033;
 }
 
 
@@ -68,7 +68,7 @@ body {
     color: var(--color-1);
     background: url(../images/blueWave.svg) var(--color-4) no-repeat bottom;
     background-size: 150%;
-    box-shadow: 0 10px 10px -2px rgba(0,0,0, .2);
+    box-shadow: 0 10px 10px -2px #00000033;
     font-weight: 600;
 }
 
@@ -130,13 +130,21 @@ footer{
 }
 
 footer .social-medias > a{
+    display: inline-block;
     margin: .5em;
     opacity: 65%;
+    transition: .3s;
 }
 
-footer .social-medias span{
+footer .social-medias > a:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+}
+
+footer  span{
     color: #000;
-    margin: 1em;
+    display: block;
+    margin-top: 1em;
 }
 
 /* ------------------------------------------------------------ */
@@ -175,19 +183,15 @@ footer .social-medias span{
 
 .result-area .peso{
     position: relative;
-    background-color: rgb(17, 17, 17);
+    background-color: #111111;
     padding: 5px 10px;
     color: var(--color-4);
     font-size: 2em;
     font-weight: bold;
-    border: 2px greenyellow solid;
+    border: 2px #adff2f solid;
+    transition: color .5s linear;
 }
 
-.result-area .table__imc {
-    width: 100%;
-    border-radius: 0 0 5px 5px;
-    margin-top: 10px;
-}
 
 @media screen and (max-width:56.25em) {
 
