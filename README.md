@@ -1,7 +1,8 @@
 <div align="center">
   
 # Calculadora IMC
-  
+<h4>IMC - Calculadora
+O Índice de Massa Corporal (IMC), é um cálculo simples que permite medir se você está ou não com o peso ideal.</h4>
 <h4>Projeto de calculadora IMC (Índice de Massa Corporal) realizado autodidaticamente com intuito de exercitar habilidades nas tecnologias Front-End HTML, CSS e Javascript.</h4>
 <p>
 <!-- Image Shields -->
@@ -15,7 +16,7 @@
 </p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/732645583227191489/983241340349464627/imc.png" width=900>
+<img src="https://cdn.discordapp.com/attachments/732645583227191489/983246143259570236/imc.png" width=900>
     
 <p>Neste projeto uso as tags HTML (HyperText Markup Language) da melhor forma possível, tentando sempre manter o mais semântico possível com base nos conhecimento adquiridos até este momento.</p>
 
