@@ -1,6 +1,5 @@
 
 .table__imc{
-    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     border-collapse: separate;
     text-align: center;
@@ -27,3 +26,4 @@ tbody tr td{ border-radius: 7px;}
 .row6{background-color: #549b0a;}
 .row7{background-color: #d36403;}
 .row8{background-color: #cd1026;}
+

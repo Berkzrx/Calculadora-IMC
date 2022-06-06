@@ -43,6 +43,7 @@ body {
     box-shadow: 10px 0 5px -3px #00000033;
     background: url(../images/yellowWave.svg) var(--color-2) no-repeat bottom;
     background-size: 300%;
+    max-width: 700px;
 }
 
 
@@ -157,6 +158,7 @@ footer  span{
     margin: auto;
     text-align: center;
     text-transform: uppercase;
+    max-width: 700px;
 }
 
 .result-area{
