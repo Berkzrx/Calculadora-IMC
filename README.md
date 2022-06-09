@@ -1,7 +1,6 @@
 <div align="center">
   
 # Calculadora IMC
-<h4>IMC - Calculadora<h4>
 O Índice de Massa Corporal (IMC), é um cálculo simples que permite medir se você está ou não com o peso ideal.</h4>
 <h4>Projeto de calculadora IMC (Índice de Massa Corporal) realizado autodidaticamente com intuito de exercitar habilidades nas tecnologias Front-End HTML, CSS e Javascript.</h4>
 <p>
