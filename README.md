@@ -7,10 +7,10 @@ O Índice de Massa Corporal (IMC), é um cálculo simples que permite medir se v
 <p>
 <!-- Image Shields -->
   <p>Dados sobre código fonte:</p>
-<img  alt="Language Top"  src="https://img.shields.io/github/languages/top/Berkzrx/Relogio-Digital">
-<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/Berkzrx/Relogio-Digital">
-<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/Berkzrx/Relogio-Digital">
-<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/Berkzrx/Relogio-Digital">
+<img  alt="Language Top"  src="https://img.shields.io/github/languages/top/Berkzrx/Calculadora-IMC">
+<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/Berkzrx/Calculadora-IMC">
+<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/Berkzrx/Calculadora-IMC">
+<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/Berkzrx/Calculadora-IMC">
 <a  href="https://github.com/Berkzrx/climate-app/blob/master/LICENSE">
 </a>
 </p>
